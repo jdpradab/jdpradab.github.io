@@ -1,0 +1,708 @@
+body {
+  background-color: rgb(17, 17, 17);
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  margin: 0;
+}
+
+.fondo{
+  z-index: -1;
+  opacity: 0.5; 
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
+
+.logo {
+  padding: 20px;
+  text-align: top;
+  margin: 10px auto;    
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: underline;
+  text-underline-offset: 12px;
+  color: rgb(17, 17, 17);
+}
+
+.underline-text {
+  position: relative;
+  display: inline-block;
+}
+
+.line {
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  height: 3px;
+  width: 0%;
+  background: rgb(177, 255, 255);
+}
+
+.recuadro1 {
+  width: 370px;          
+  height: 0px;
+  background: rgb(17, 17, 17);
+  border: 0px solid rgb(177, 255, 255);
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+
+.recuadro2{
+  width: 370px;
+  height: 0px;
+  background: rgb(17, 17, 17);
+  border: 0px solid rgb(177, 255, 255);
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.boton {
+  width: 180px;
+  height: 0;
+  background: rgb(17, 17, 17);
+  border: 0px solid rgb(177, 255, 255);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  position: absolute;
+  top: 79%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glitch-error1{
+  position: absolute;
+  top: 62%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+}
+
+.glitch-error2{
+  position: absolute;
+  top: 42%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+}
+
+.usuario{
+  position: absolute;
+  top: 38%;
+  left: 41%;
+  transform: translate(-50%, -50%);
+}
+
+.contraseña{
+  position: absolute;
+  top: 58%;
+  left: 42.5%;
+  transform: translate(-50%, -50%);
+}
+
+.usro {
+  position: absolute;
+  top: 45%;
+  left: 43%;
+  transform: translate(-50%, -50%);
+
+}
+
+.cntr {
+  position: absolute;
+  top: 66%;
+  left: 44%;
+  transform: translate(-50%, -50%) scale(1.5);
+
+}
+
+.linea{
+  position: absolute;
+  width: 4px;
+  height: 20px;
+  background-color: rgb(177, 255, 255);
+  top: 44.9%;
+  left: 38.5%;
+  transform: translate(-50%, -50%);
+}
+
+.linea2{
+  position: absolute;
+  width: 4px;
+  height: 20px;
+  background-color: rgb(177, 255, 255);
+  top: 64.9%;
+  left: 38.5%;
+  transform: translate(-50%, -50%);
+}
+
+.ml10 {
+  position: relative;
+  font-weight: 600;
+  font-size: 1.8em;
+  color: rgb(177, 255, 255);
+}
+
+.ml10 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+}
+
+.ml10 .letter {
+  display: inline-block;
+  line-height: 1em;
+  transform-origin: 0 0;
+}
+
+/* --------------------------------------- pagina 2 -----------------------------------------*/
+
+.rcarga {
+  width: 740px;
+  height: 0px;
+  background: rgba(17, 17, 17,0.7);
+  border: 2px solid rgb(177, 255, 255);
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+
+.Cargando{
+  position: absolute;
+  top: 50%;
+  left: 49%;
+  transform: translate(-50%, -50%) scale(2);
+}
+
+.accP{
+  position: absolute;
+  top: 65%;
+  left: 49%;
+  transform: translate(-50%, -50%) scale(2);
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(0, 255, 255);
+  position: absolute;
+  opacity: 0;
+  top: 61.5%;
+  left: 27%;
+  box-shadow:
+    0 0 5px rgb(0, 255, 255),
+    0 0 10px rgb(0, 255, 255),
+    0 0 20px rgb(0, 255, 255),
+    0 0 30px rgb(0, 255, 255);
+
+}
+
+.bien{
+  position: absolute;
+  top: 52.4%;
+  left: 44%;
+  transform: translate(-50%, -50%);
+} 
+
+.ngw{
+  position: absolute;
+  top: 52.5%;
+  left: 58.5%;
+  transform: translate(-50%, -50%);
+}
+
+.opc{
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(3);
+}
+
+.opct{
+  position: absolute;
+  top: 27%;
+  left: 40%;
+  transform: translate(-50%, -50%) scale(0.7);
+}
+
+.linea3{
+  position: absolute;
+  width: 500px;
+  height: 4px;
+  background-color: rgb(177, 255, 255);
+  top: 30%;
+  left: 40.5%;
+  transform: translate(-50%, -50%);
+}
+
+.op1{
+  position: absolute;
+  top: 35.45%;
+  left: 35%;
+  transform: translate(-50%, -50%) scale(1.5);
+}
+
+.op2{
+  position: absolute;
+  top: 51.825%;
+  left: 36.9%;
+  transform: translate(-50%, -50%) scale(1.5);
+}
+
+.op3{
+  position: absolute;
+  top: 68.5%;
+  left: 35.6%;
+  transform: translate(-50%, -50%) scale(1.5);
+}
+
+.icono-svg {
+  width: 50px;
+  height: 50px;
+  transform: scale(1.4);
+  fill: rgb(159, 251, 120);
+  z-index: 3; 
+}
+
+.boton-svg {
+  width: 50px;
+  height: 50px;
+  transform: scale(1.4);
+  fill: rgb(177, 255, 255);
+  z-index: 3; 
+}
+
+.ind1 {
+  position: absolute;
+  top: 37%;
+  left: 28.5%;
+  opacity:0;
+  transform: translate(-50%, -50%) scale(1.5);
+}
+
+.ind2 {
+  position: absolute;
+  top: 53.375%;
+  left: 28.4%;
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(1.5);
+}
+
+.ind3 {
+  position: absolute;
+  top: 70%;
+  left: 28.5%;
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(1.5);
+}
+
+.bD {
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.bI {
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%) scale(1) rotate(180deg);
+}
+
+.linea4{
+  position: absolute;
+  width: 140px;
+  height: 8px;
+  background-color: rgb(131, 197, 123);
+  top: 39.25%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.linea5{
+  position: absolute;
+  width: 198px;
+  height: 8px;
+  background-color: rgb(131, 197, 123);
+  top: 55.625%;
+  left: 36.9%;
+  transform: translate(-50%, -50%);
+}
+
+.linea6{
+  position: absolute;
+  width: 157.5px;
+  height: 8px;
+  background-color: rgb(131, 197, 123);
+  top: 72%;
+  left: 35.6%;
+  transform: translate(-50%, -50%);
+}
+
+.rico {
+  width: 430px;
+  height: 300px;
+  border-radius: 10%;
+  background: rgba(17, 17, 17,0.7);
+  border: 2px solid rgb(177, 255, 255);
+  position: absolute;
+  top: 53%;
+  left: 62%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.BI{
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  background: rgba(17, 17, 17,0);
+  border: 2px solid rgb(177, 255, 255);
+  position: absolute;
+  top: 83%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.BD{
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  background: rgba(17, 17, 17,0.7);
+  border: 2px solid rgb(177, 255, 255);
+  position: absolute;
+  top: 83%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.BC {
+  width: 180px;
+  height: 100px;
+  border-radius: 10%;
+  background: rgba(17, 17, 17, 0);
+  border: 2px solid rgb(177, 255, 255);
+  position: absolute;
+  top: 83%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.bp-unido {
+  position: absolute;
+  width: 151px;
+  height: 7px;
+  background-color: rgb(177, 255, 255);
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.bp-unido::before,
+.bp-unido::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: rgb(177, 255, 255);
+  top: -110%;
+}
+
+
+.bp-unido::before {
+  left: -0px;
+}
+
+
+.bp-unido::after {
+  right: -0px;
+}
+
+.txt {  /*contenedor*/
+  position: absolute;
+  top: 53%;
+  left: 63%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  opacity: 0;
+}
+.bitacora {
+  position: absolute;
+  top: 53%;
+  left: 62%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  opacity: 0;
+}
+
+.postData {
+  position: absolute;
+  top: 53%;
+  left: 62%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  opacity: 0;
+}
+
+.opciones { /*tamaño*/
+  width: 200px;
+  height: 200px;
+  transform: scale(1.4);
+}
+
+.icono-path2 { /*aspecto*/
+  stroke: white;
+  fill: none;
+  stroke-width: 0.7;
+}
+
+.icono-path3 { /*aspecto*/
+  stroke: white;
+  fill: none;
+  stroke-width: 2;
+}
+
+/*---------------------------------------------------------------carta------------------------------------------------------------------*/
+
+.tit {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(2.5);
+  font-family: 'Arial Black', sans-serif;
+  color: #0ff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  opacity: 0;
+  text-shadow:
+    0 0 2px rgba(0, 255, 255, 0.5),
+    0 0 4px rgba(0, 255, 255, 0.4),
+    0 0 8px rgba(0, 255, 255, 0.3),
+    0 0 16px rgba(0, 255, 255, 0.2);
+
+  animation: flicker 2s infinite alternate;
+}
+
+.parrafos{
+  color: rgb(165, 250, 126);
+  z-index:2;
+}
+
+.p1{
+  width: 1200px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%) ;
+
+}
+
+.p2{
+  width: 1200px;
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%) ;
+
+}
+
+.p3{
+  width: 1200px;
+  position: absolute;
+  top: 35.4%;
+  left: 50%;
+  transform: translate(-50%, -50%) ;
+
+}
+
+.p4{
+  width: 1200px;
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%) ;
+
+}
+
+.p5{
+  width: 1200px;
+  position: absolute;
+  top: 35.6%;
+  left: 50%;
+  transform: translate(-50%, -50%) ;
+
+}
+
+.p6{
+  width: 1200px;
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%) ;
+
+}
+
+.p7{
+  width: 1200px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.pg{
+  width: 1200px;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%) ;
+}
+
+.pg1, .pg2, .pg3{
+  position: absolute;
+  top: 15%;
+  left: 17.3%;
+  transform: translate(-50%, -50%) ;
+  opacity: 0;
+
+}
+
+
+.I{
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  background: rgba(17, 17, 17,0);
+  border: 2px solid rgba(17, 17, 17,0);
+  position: absolute;
+  top: 83%;
+  left: 45;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.D{
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  background: rgba(17, 17, 17,0);
+  border: 2px solid rgba(17, 17, 17,0);
+  position: absolute;
+  top: 83%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+
+.rc {
+  width: 1100px;
+  height:1100px;
+  border-radius: 40px;
+  background: rgba(17, 17, 17,0.4);
+  border: 2px solid rgb(177, 255, 255);
+  position: absolute;
+  top: 49%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  overflow: hidden;
+    z-index:0.5;
+}
+
+
+
+/*---------------------------------------------------------------Post Datas------------------------------------------------------------------*/
+
+.pd{
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(2);
+
+}
+
+.pds {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 800px;
+  text-align: center;
+}
+
+.pd-texto {
+  opacity: 0;
+  font-size: 20px;
+  margin: 20px 0;
+  color: rgb(177, 255, 255);
+}
+
+.X {
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  background: rgba(17, 17, 17, 0);
+  border: 2px solid rgb(177, 255, 255); /* este es el borde visible */
+  position: absolute;
+  top: 83%;
+  left: 40%;
+  transform: translate(-50%, -50%) scale(1);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.BX {
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+  background: rgba(17, 17, 17, 0);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boton2-svg {
+  stroke: white;
+  fill: none;
+}
